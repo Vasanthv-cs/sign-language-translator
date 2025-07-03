@@ -1,25 +1,28 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
+import WebcamFeed from './components/WebcamFeed';
 import './App.css';
 
-function App() {
+const App = () => {
+  const [darkMode, setDarkMode] = useState(false);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className={darkMode ? 'app dark' : 'app'}>
+      <header className="header">
+        <h1>🧏 Sign Language Translator</h1>
+        <button onClick={() => setDarkMode(!darkMode)}>
+          {darkMode ? '☀️ Light Mode' : '🌙 Dark Mode'}
+        </button>
       </header>
+
+      <main>
+        <WebcamFeed />
+      </main>
+
+      <footer>
+        <p>Assistive Communication App | Built for Accessibility 💙</p>
+      </footer>
     </div>
   );
-}
+};
 
 export default App;
