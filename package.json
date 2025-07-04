@@ -1,7 +1,7 @@
 {
   "name": "sign-language-translator",
   "version": "0.1.0",
-  "homepage": "https://yourusername.github.io/your-repo-name",
+  "homepage": "https://vasanthv-cs.github.io/sign-language-translator",
   "private": true,
   "main": "main.js",
   "dependencies": {
