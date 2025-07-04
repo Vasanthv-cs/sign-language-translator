@@ -73,7 +73,7 @@ const WebcamFeed = () => {
     };
 
     loadModel();
-  }, [lastSign, soundOn]);
+  }, [lastSign, soundOn, speakWord]);
 
   const drawHand = (landmarks, ctx) => {
     ctx.fillStyle = 'deepskyblue';
