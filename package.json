@@ -1,6 +1,7 @@
 {
   "name": "sign-language-translator",
   "version": "0.1.0",
+  "homepage": "https://yourusername.github.io/your-repo-name",
   "private": true,
   "main": "main.js",
   "dependencies": {
@@ -21,6 +22,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "electron": "concurrently \"npm start\" \"wait-on http://localhost:3000 && electron .\"",
     "electron-pack": "electron-packager . sign-language-translator --platform=win32 --arch=x64 --out=dist --overwrite"
   },
@@ -46,6 +49,7 @@
     "concurrently": "^8.2.2",
     "electron": "^37.2.0",
     "electron-packager": "^17.1.2",
+    "gh-pages": "^6.3.0",
     "wait-on": "^7.2.0"
   }
 }
