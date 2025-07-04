@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/your-repo-name/static/css/main.73fc271e.css",
-    "main.js": "/your-repo-name/static/js/main.e5cd03d9.js",
-    "static/js/453.b92c3b91.chunk.js": "/your-repo-name/static/js/453.b92c3b91.chunk.js",
-    "index.html": "/your-repo-name/index.html",
-    "main.73fc271e.css.map": "/your-repo-name/static/css/main.73fc271e.css.map",
-    "main.e5cd03d9.js.map": "/your-repo-name/static/js/main.e5cd03d9.js.map",
-    "453.b92c3b91.chunk.js.map": "/your-repo-name/static/js/453.b92c3b91.chunk.js.map"
+    "main.css": "/sign-language-translator/static/css/main.73fc271e.css",
+    "main.js": "/sign-language-translator/static/js/main.1f2c134b.js",
+    "static/js/453.b92c3b91.chunk.js": "/sign-language-translator/static/js/453.b92c3b91.chunk.js",
+    "index.html": "/sign-language-translator/index.html",
+    "main.73fc271e.css.map": "/sign-language-translator/static/css/main.73fc271e.css.map",
+    "main.1f2c134b.js.map": "/sign-language-translator/static/js/main.1f2c134b.js.map",
+    "453.b92c3b91.chunk.js.map": "/sign-language-translator/static/js/453.b92c3b91.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.73fc271e.css",
-    "static/js/main.e5cd03d9.js"
+    "static/js/main.1f2c134b.js"
   ]
 }
